@@ -1,0 +1,79 @@
+/* styles.css */
+*{
+    background-color: #b1d0f1;
+}
+/* App */
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* MovieCard */
+  .movie-card {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+  }
+  
+  /* MovieList */
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Filter */
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  /* MovieForm */
+  .movie-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-form input,
+  .movie-form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .movie-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* MovieDescription */
+  .movie-description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .movie-description h2 {
+    margin-bottom: 10px;
+  }
+  
+  .movie-description p {
+    margin-bottom: 20px;
+  }
+  
+  .movie-description iframe {
+    max-width: 100%;
+  }
+  
+  .movie-description a {
+    display: inline-block;
+    color: #007bff;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
